@@ -1,6 +1,6 @@
 # segmentedview
 
-[![](https://jitpack.io/v/czy1121/segmentedview.svg)](https://jitpack.io/#czy1121/segmentedview) 
+[![](https://jitpack.io/v/ccapton/segmentedview.svg)](https://jitpack.io/#ccapton/segmentedview) 
 
 ios 风格的分段控件，类似 UISegmentedControl
 
