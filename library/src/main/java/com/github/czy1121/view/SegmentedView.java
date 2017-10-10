@@ -235,6 +235,11 @@ public class SegmentedView extends View {
         }
     }
 
+    public void setCurrentItem(int position){
+        mCurrentIndex=position;
+        invalidate();
+    }
+
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         switch (event.getAction() & MotionEvent.ACTION_MASK) {

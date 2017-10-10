@@ -16,8 +16,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
         bind(R.id.sv1);
         bind(R.id.sv2);
         bind(R.id.sv3);
@@ -28,6 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     void bind(int resId) {
         ((SegmentedView)findViewById(resId)).setOnItemSelectedListener(this);
+        ((SegmentedView)findViewById(resId)).setCurrentItem(2);
     }
 
     @Override
