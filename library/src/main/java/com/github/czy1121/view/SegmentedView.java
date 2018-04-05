@@ -129,6 +129,11 @@ public class SegmentedView extends View {
     public int getCurrentIndex() {
         return mCurrentIndex;
     }
+    
+    public void setCurrentItem(int position){
++        mCurrentIndex=position;
++        invalidate();
++    }
 
     public void setOnItemSelectedListener(OnItemSelectedListener listener) {
         mListener = listener;
