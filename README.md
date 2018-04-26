@@ -1,5 +1,13 @@
 # segmentedview
 
+**在原作的基础上添加了 setCurrentItem(int position) 这个方法，用于viewpager滑动回调后，使本控件视图能随viewpager变化当前选中页！**
+```
+public void setCurrentItem(int position){
+        mCurrentIndex=position;
+        invalidate();
+    }
+```
+
 [![](https://jitpack.io/v/ccapton/segmentedview.svg)](https://jitpack.io/#ccapton/segmentedview) 
 
 ios 风格的分段控件，类似 UISegmentedControl
